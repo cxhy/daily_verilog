@@ -1,6 +1,3 @@
----
-typora-root-url: ./
----
 
 # day2
 
@@ -20,16 +17,16 @@ typora-root-url: ./
 ![CMOS_Inverter](./CMOS_Inverter.svg)
 	
 	+ NMOS与非门
-![Nmos_enhancement_saturated_nand](/Nmos_enhancement_saturated_nand.svg)
+![Nmos_enhancement_saturated_nand](./Nmos_enhancement_saturated_nand.svg)
 
 	+ CMOS或非门
-   ![Cmosunbuff](/Cmosunbuff.png)
+   ![Cmosunbuff](./Cmosunbuff.png)
 
 	+ 三态门
-![d009b3de9c82d158e72e1130800a19d8bd3e4286](/d009b3de9c82d158e72e1130800a19d8bd3e4286.jpg)
+![d009b3de9c82d158e72e1130800a19d8bd3e4286](./d009b3de9c82d158e72e1130800a19d8bd3e4286.jpg)
 	
 	+ 漏极开路门
-![201203192130166732](/201203192130166732.png)
+![201203192130166732](./201203192130166732.png)
 额外说一句，开漏输出主要用在IIC的接口上面，因为IIC的协议需要依靠外部上拉提供高电平。当多个IIC设备挂载在同一个总线上面的时候SoC就是使用开漏输出实现“线与”逻辑。实现对总线的占用
 
 2. 解释一下Vih，Vil，Vol，Voh，Vt，Iddq
